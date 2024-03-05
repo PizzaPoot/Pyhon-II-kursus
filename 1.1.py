@@ -16,4 +16,4 @@ for pikkus in kalapikkused:
         kaalud.append(kala_kaal(pikkus, fulton))
     else:
         print("Kala lasti vette tagasi")
-print(f"Kõige raskem püütud kala: {round(max(kaalud) / 1000), 3} kg")
+print(f"Kõige raskem püütud kala: {round(max(kaalud) / 1000, 3)} kg")
