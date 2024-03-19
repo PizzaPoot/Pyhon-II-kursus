@@ -23,4 +23,3 @@ def taismanguks_vaja(matrix):
             if element != "X":
                 vaja.append(element)
     return vaja
-
